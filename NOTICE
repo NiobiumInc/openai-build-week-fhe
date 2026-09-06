@@ -2,7 +2,7 @@ THIRD-PARTY SOFTWARE NOTICES AND INFORMATION
 ============================================================
 
 Project: openai-build-week-fhe
-Generated: 2026-09-05
+Generated: 2026-09-06
 Tool: SCANOSS (snippet detection with License dataset)
 Components: 84
 
@@ -340,7 +340,7 @@ COMPONENT ATTRIBUTIONS
 
   codspeed-cpp
   Version: v1.0.0
-  Source: https://github.com/CodSpeedHQ/codspeed-cpp
+  Source: https://github.com/codspeedhq/codspeed-cpp
   PURL: pkg:github/codspeedhq/codspeed-cpp
   Copyright:
     Copyright 2025 CodSpeed Technology SAS and contributors
