@@ -2,9 +2,9 @@ THIRD-PARTY SOFTWARE NOTICES AND INFORMATION
 ============================================================
 
 Project: openai-build-week-fhe
-Generated: 2026-09-24
+Generated: 2026-09-25
 Tool: SCANOSS (snippet detection with License dataset)
-Components: 145
+Components: 153
 
 This file lists all third-party software components detected
 in this repository, along with their licenses and copyright
@@ -30,7 +30,7 @@ LICENSE SUMMARY
   AFL-2.1: 1 component(s)
   AFL-3.0 AND GPL-2.0-only AND AFL-2.1 AND GPL-2.0-or-later AND MIT AND GPL-1.0-or-later: 1 component(s)
   AGPL-3.0-only [COPYLEFT]: 1 component(s)
-  Apache-2.0: 30 component(s)
+  Apache-2.0: 32 component(s)
   Apache-2.0 AND Apache-2.0 AND OpenSSL: 1 component(s)
   Apache-2.0 WITH LLVM-exception: 4 component(s)
   Apache-2.0 WITH LLVM-exception AND NCSA: 2 component(s)
@@ -39,7 +39,7 @@ LICENSE SUMMARY
   Artistic-1.0-Perl: 2 component(s)
   Artistic-1.0-Perl OR GPL-1.0-or-later: 1 component(s)
   Artistic-2.0: 1 component(s)
-  BSD-2-Clause: 12 component(s)
+  BSD-2-Clause: 13 component(s)
   BSD-2-Clause AND BSD-3-Clause: 1 component(s)
   BSD-2-Clause AND LGPL-2.1-only: 1 component(s)
   BSD-2-Clause-Darwin: 1 component(s)
@@ -85,7 +85,7 @@ LICENSE SUMMARY
   CC-BY-SA-3.0-AT: 1 component(s)
   CC-BY-SA-4.0: 1 component(s)
   CC-PDDC: 1 component(s)
-  CC0-1.0: 2 component(s)
+  CC0-1.0: 3 component(s)
   CC0-1.0 OR Apache-2.0 AND CC0-1.0 AND Apache-2.0 AND CC0-1.0 AND Apache-2.0: 1 component(s)
   CDDL-1.0 [COPYLEFT]: 1 component(s)
   CDDL-1.1 [COPYLEFT]: 1 component(s)
@@ -123,6 +123,7 @@ LICENSE SUMMARY
   ICU: 1 component(s)
   ISC: 3 component(s)
   ISC AND BSD-Source-Code AND BSD-3-Clause AND BSD-2-Clause AND Zlib: 1 component(s)
+  JSON: 1 component(s)
   Jam: 1 component(s)
   LGPL-2.0-only [COPYLEFT]: 1 component(s)
   LGPL-2.0-or-later AND LGPL-2.1-or-later: 1 component(s)
@@ -146,7 +147,7 @@ LICENSE SUMMARY
   LPPL-1.3c: 1 component(s)
   Libpng: 1 component(s)
   Linux-syscall-note: 1 component(s)
-  MIT: 54 component(s)
+  MIT: 59 component(s)
   MIT AND Apache-2.0: 1 component(s)
   MIT AND GPL-2.0-only AND GPL-1.0-or-later AND MIT AND GPL-1.0-or-later AND MIT AND Boehm-GC AND GPL-1.0-or-later: 1 component(s)
   MIT AND GPL-3.0-only: 1 component(s)
@@ -163,7 +164,7 @@ LICENSE SUMMARY
   MPL-1.1 [COPYLEFT]: 1 component(s)
   MPL-2.0 [COPYLEFT]: 6 component(s)
   MPL-2.0 AND Apache-2.0: 1 component(s)
-  NCSA: 7 component(s)
+  NCSA: 8 component(s)
   OFL-1.1 [COPYLEFT]: 2 component(s)
   OFL-1.1 AND Apache-2.0: 1 component(s)
   OLDAP-2.8: 1 component(s)
@@ -354,6 +355,20 @@ COMPONENT ATTRIBUTIONS
     Copyright (c) 2018; Shane Grant
   License: BSD-3-Clause
 
+  checkedc-llvm-project
+  Version: llvmorg-3.8.0-rc1
+  Source: https://github.com/secure-sw-dev/checkedc-llvm-project
+  PURL: pkg:github/secure-sw-dev/checkedc-llvm-project
+  License: Apache-2.0, CC0-1.0, MIT, NCSA
+
+  checkers_game_qt_cplusplus
+  Version: v2.0
+  Source: https://github.com/adamchor1992/checkers_game_qt_cplusplus
+  PURL: pkg:github/adamchor1992/checkers_game_qt_cplusplus
+  Copyright:
+    Copyright 2005; Google Inc.
+  License: MIT
+
   chemicalfun
   Version: v0.1.8
   Source: https://github.com/thermohub/chemicalfun
@@ -413,6 +428,12 @@ COMPONENT ATTRIBUTIONS
     Copyright 2021 Google Inc.
   License: MIT
 
+  como
+  Version: 536c41a
+  Source: https://gitee.com/tjopenlab/como
+  PURL: pkg:gitee/tjopenlab/como
+  License: Apache-2.0
+
   conan-googletest
   Version: 1.9.0-b3
   Source: https://github.com/odant/conan-googletest
@@ -442,6 +463,14 @@ COMPONENT ATTRIBUTIONS
   Version: v0.43.1
   Source: https://gitee.com/yuanfeng1897/cpp-httplib
   PURL: pkg:gitee/yuanfeng1897/cpp-httplib
+  Copyright:
+    Copyright 2026 Yuji Hirose. All rights reserved
+  License: MIT
+
+  cpp-httplib
+  Version: v0.43.1
+  Source: https://github.com/yhirose/cpp-httplib
+  PURL: pkg:github/yhirose/cpp-httplib
   Copyright:
     Copyright 2026 Yuji Hirose. All rights reserved
   License: MIT
@@ -646,6 +675,7 @@ COMPONENT ATTRIBUTIONS
   PURL: pkg:github/gams-dev/gams-cpp
   Copyright:
     Copyright 2024 Google Inc
+    Copyright 2005; Google Inc.
   License: MIT
 
   gcc
@@ -711,6 +741,15 @@ COMPONENT ATTRIBUTIONS
     CopyrightText: 2013-2023 Niels Lohmann <https:  nlohmann.me>
   License: MIT
 
+  github.com/bottlenose-inc/rapidjson
+  Version: v1.0.7
+  Source: https://proxy.golang.org/github.com/bottlenose-inc/rapidjson/@v/v1.0.7.zip
+  PURL: pkg:golang/github.com/bottlenose-inc/rapidjson
+  Copyright:
+    Copyright 2006-2013 Alexander Chemeris
+    Copyright (C) 2015 THL A29 Limited.
+  License: MIT
+
   github.com/chyezh/cgosymbolizer
   Version: v0.0.0-20240718183735-925f0b3ad234
   Source: https://proxy.golang.org/github.com/chyezh/cgosymbolizer/@v/v0.0.0-20240718183735-925f0b3ad234.zip
@@ -744,8 +783,8 @@ COMPONENT ATTRIBUTIONS
   License: BSD-3-Clause
 
   github.com/gperftools/gperftools
-  Version: v0.0.0-20241007172111-6e4984bc1bc2
-  Source: https://proxy.golang.org/github.com/gperftools/gperftools/@v/v0.0.0-20241007172111-6e4984bc1bc2.zip
+  Version: v0.0.0-20250815173513-d9a5d38e5cd1
+  Source: https://proxy.golang.org/github.com/gperftools/gperftools/@v/v0.0.0-20250815173513-d9a5d38e5cd1.zip
   PURL: pkg:golang/github.com/gperftools/gperftools
   Copyright:
     Copyright 2005 Google Inc
@@ -769,6 +808,8 @@ COMPONENT ATTRIBUTIONS
     Copyright (c) 2021; IBM Ltd.
     Copyright (c) 2021; gperftools Contributors
     Copyright (c) 2024; gperftools Contributors
+    Copyright 1994; 1995; 1996; 1999; 2000; 2001; 2002 Free Software
+    Copyright 1994; 1995; 1996; 1999; 2000; 2001; 2002 Free Software Foundation; Inc.
     Copyright 2009 Google Inc. All Rights Reserved.
   License: BSD-3-Clause
 
@@ -822,6 +863,7 @@ COMPONENT ATTRIBUTIONS
   Copyright:
     Copyright 2025 Mate Buljan
     Copyright 2005; Google Inc.
+    Copyright 2007; Google Inc.
     Copyright 2008; Google Inc.
   License: BSD-3-Clause, MIT
 
@@ -1019,9 +1061,11 @@ COMPONENT ATTRIBUTIONS
     Copyright 2024 Google Inc
     Copyright (c) 2012; Erik Edlund <erik.edlund@32767.se>
     Copyright 2005 Google Inc.
+    Copyright 2006; Google Inc.
     Copyright 2007; Google Inc.
     Copyright 2008; Google Inc.
     Copyright 2013-2023 Niels Lohmann <https:  nlohmann.me>
+    Copyright 2018 Vitaliy Manushkin <agri@akamo.info>
     Copyright 2018; Google Inc.
     Copyright 2020; Google Inc.
     Copyright 2025; Google Inc.
@@ -1077,7 +1121,7 @@ COMPONENT ATTRIBUTIONS
   Copyright:
     Copyright (C) 2004-2008 Ren   Nyffenegger
     Copyright (C) 2006; 2009 Marcin Kalicinski
-    Copyright (C) 2015 THL A29 Limited; a Tencent company; and Milo Yip. All rights reserved.
+    Copyright (C) 2015 THL A29 Limited; a Tencent company; and Milo Yip-> All rights reserved->
     Copyright (c) 2004-2008 Rene Nyffenegger
   License: MPL-2.0
 
@@ -1131,6 +1175,14 @@ COMPONENT ATTRIBUTIONS
   Source: https://github.com/kobejean/lar
   PURL: pkg:github/kobejean/lar
   License: NCSA
+
+  libacidcam
+  Version: v2.22.1
+  Source: https://github.com/lostjared/libacidcam
+  PURL: pkg:github/lostjared/libacidcam
+  Copyright:
+    Copyright 2018 Jared Bruni
+  License: BSD-2-Clause
 
   libbacktrace
   Version: 86885d1
@@ -1344,6 +1396,14 @@ COMPONENT ATTRIBUTIONS
     Copyright 2009 Google Inc. All Rights Reserved.
   License: EPL-2.0
 
+  minimal-serializer
+  Version: v0.1.0
+  Source: https://github.com/cdecpgl/minimal-serializer
+  PURL: pkg:github/cdecpgl/minimal-serializer
+  Copyright:
+    Copyright (C) 2015 THL A29 Limited; a Tencent company; and Milo Yip. All rights reserved.
+  License: MIT
+
   mitata
   Version: 0.1.12
   Source: https://www.npmjs.com/package/mitata
@@ -1503,6 +1563,14 @@ COMPONENT ATTRIBUTIONS
     Copyright 2015; Google Inc.
   License: BSD-3-Clause
 
+  otus_ip_filter
+  Version: 4
+  Source: https://github.com/igordedkovskiy/otus_ip_filter
+  PURL: pkg:github/igordedkovskiy/otus_ip_filter
+  Copyright:
+    Copyright 2006; Google Inc.
+  License: BSD-3-Clause
+
   Otus_IP_filter
   Version: 3
   Source: https://github.com/daniil199820/otus_ip_filter
@@ -1510,14 +1578,6 @@ COMPONENT ATTRIBUTIONS
   Copyright:
     Copyright 2009 Google Inc. All rights reserved
     Copyright 2009 Google Inc.
-  License: BSD-3-Clause
-
-  otus_ip_filter
-  Version: 4
-  Source: https://github.com/igordedkovskiy/otus_ip_filter
-  PURL: pkg:github/igordedkovskiy/otus_ip_filter
-  Copyright:
-    Copyright 2006; Google Inc.
   License: BSD-3-Clause
 
   ouroveon
@@ -1635,6 +1695,15 @@ COMPONENT ATTRIBUTIONS
   Copyright:
     Copyright (c) 2014; Randolph Voorhies; Shane Grant
   License: BSD-3-Clause
+
+  rapidjson
+  Version: v1.0-beta
+  Source: https://github.com/miloyip/rapidjson
+  PURL: pkg:github/miloyip/rapidjson
+  Copyright:
+    Copyright 2006-2013 Alexander Chemeris
+    Copyright (C) 2015 THL A29 Limited.
+  License: JSON
 
   rayx
   Version: v0.19.4
@@ -1852,6 +1921,7 @@ COMPONENT ATTRIBUTIONS
   PURL: pkg:github/yugabyte/yugabyte-db-thirdparty
   Copyright:
     Copyright 2014 Kiyoshi Masui  kiyo@physics.ubc.ca)
+    Copyright copyright text to reflect Google s relinquished ownership
   License: MIT
 
 ------------------------------------------------------------
@@ -10943,6 +11013,26 @@ this program; if not, write to the Free Software Foundation, Inc.,
 Full license text: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 
+--- NCSA ---
+
+University of Illinois/NCSA Open Source License
+
+Copyright (c) <Year> <Owner Organization Name>. All rights reserved.
+
+Developed by: <Name of Development Group> <Name of Institution> <URL for Development Group/Institution>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal with the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+     * Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimers.
+
+     * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimers in the documentation and/or other materials provided with the distribution.
+
+     * Neither the names of <Name of Development Group, Name of Institution>, nor the names of its contributors may be used to endorse or promote products derived from this Software without specific prior written permission.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE SOFTWARE.
+
+
+
 --- OpenSSL ---
 
 OpenSSL License
@@ -10993,26 +11083,6 @@ The word 'cryptographic' can be left out if the rouines from the library being u
 THIS SOFTWARE IS PROVIDED BY ERIC YOUNG ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 The licence and distribution terms for any publically available version or derivative of this code cannot be changed. i.e. this code cannot simply be copied and put under another distribution licence [including the GNU Public Licence.]
-
-
-
---- NCSA ---
-
-University of Illinois/NCSA Open Source License
-
-Copyright (c) <Year> <Owner Organization Name>. All rights reserved.
-
-Developed by: <Name of Development Group> <Name of Institution> <URL for Development Group/Institution>
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal with the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-     * Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimers.
-
-     * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimers in the documentation and/or other materials provided with the distribution.
-
-     * Neither the names of <Name of Development Group, Name of Institution>, nor the names of its contributors may be used to endorse or promote products derived from this Software without specific prior written permission.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE SOFTWARE.
 
 
 
@@ -11119,5 +11189,21 @@ as long as this copyright notice is retained and modifications are
 clearly marked.
 
 ALL WARRANTIES ARE HEREBY DISCLAIMED.
+
+
+
+--- JSON ---
+
+JSON License
+
+Copyright (c) 2002 JSON.org
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+The Software shall be used for Good, not Evil.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
