@@ -2,7 +2,7 @@ THIRD-PARTY SOFTWARE NOTICES AND INFORMATION
 ============================================================
 
 Project: openai-build-week-fhe
-Generated: 2026-10-03
+Generated: 2026-10-05
 Tool: SCANOSS (snippet detection with License dataset)
 Components: 80
 
@@ -630,8 +630,10 @@ COMPONENT ATTRIBUTIONS
   Copyright:
     Copyright 2005 ; Google Inc.
     Copyright 2008 ; Google Inc.
+    Copyright 2012-2016 Free Software Foundation Inc
     Copyright 2014 gperftools Contributors
     Copyright 2023 gperftools Contributors
+    Copyright 2026 gperftools Contributors
     Copyright (c) 2000; Google Inc.
     Copyright (c) 2003; Google Inc.
     Copyright (c) 2004; Google Inc.
