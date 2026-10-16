@@ -123,3 +123,7 @@ make compare-build  # rebuild generated FHE binaries, then run the comparison
 ```
 
 The score profiles are a transparent demonstration rubric, not provider endorsements or eligibility decisions. [The match-quality protocol](docs/MATCH_QUALITY_PROTOCOL.md) and [comparison examples](docs/PUBLIC_VS_PRIVATE_MATCHING_EXAMPLES.md) explain the claims the prototype can support.
+
+## Contributing
+
+This repository is Niobium's fork of [sw-zzz/openai-build-week-fhe](https://github.com/sw-zzz/openai-build-week-fhe). Please open issues and pull requests on the original repository. Issues are turned off here, and pull requests are limited to collaborators.
